@@ -1,11 +1,14 @@
+import Link from "next/link"
 import { useState } from "react"
 
 function sobre (){
     return (
         <div>
-            <h1>sobre</h1>
-            <Contador/>
-            <a href="/Home">Acessar página Home</a>
+            <h1>Sobre</h1>
+            <Link href="/">
+            <a>Acessar página Home</a>
+            </Link>
+            
         </div>
     )
 }
