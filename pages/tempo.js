@@ -17,7 +17,8 @@ export function getStaticProps(){
     return{
         props: {
             StaticDateString
-        }
+        },
+        revalidade: 1
     }
 }
 export default Tempo;
